@@ -19,9 +19,27 @@ $flo = 3.14; //Gán giá trị 3.14 cho biến $flo
 $str = "Hello Many World :))"; //Gán chuỗi Hello Many World :)) cho biến $str
   -> Để nối chuỗi, chúng ta dùng dấu chấm ( . ) VD: $str = "I love ".(1+2); //Kết quả: I Love 3
 #Kiểu dữ liệu Array [Đây là kiểu mảng, nó chứa các phần tử có cùng kiểu dữ liệu]
+// Tạo mảng:
 $arr[0]="Apple";
 $arr[1]="Samsung";
 $arr[2]="BB";
+// -> In giá trị trong mảng ra, chúng ta sử dụng câu lệnh: 
+print $arr[0]; // thì sẽ được kết quả là Apple
+// Trong mảng, các phần tử được đánh số từ 0 chứ không phải là từ 1
+// Các bạn cũng có thể tạo mảng bằng cú pháp:
+$arr = Array("Apple","Samsung","BB"); // Để lấy giá trị theo các này chúng ta vẫn sử dụng câu lệnh như trên.
+print $arr[1]; // Giá trị trả về sẽ là Samsung
+//Ngoài  ra còn có mảng 1 chiều kết hợp.... nhưng mảng là 1 phần rất quan trọng trong PHP, vì vậy chúng ta sẽ tìm hiểu kỹ hơn về nó ở những phần sau.
+#Kiểu dữ liệu Object [Cái này hơi khó nói, bạn sẽ rõ hơn khi học tới Lập trình hướng đối tượng], ví dự bên dưới bạn không cần hiểu cũng được
+class foo{ //Tạo class tên là foo
+function do_foo(){ //Tạo function tên là do_foo không có giá trị truyền vào (rỗng)
+echo "Working..."; //In ra dòng chữ Working...
+}
+}
+$bar = new foo; // Làm mới class foo và gán nó vào biến bar
+$bar->do_foo(); //Biến bar được dùng trong function do_foo
+#Kiểu dữ liệu Resource [Là một biến đặc biệt, chứa một tham chiếu đến một resource bên ngoài. Các resource được tạo ra và sử dụng bởi các hàm đặc biệt.]
+#Kiểu dữ liệu NULL [Kiểu dữ liệu này được dùng để thể hiện một biến không có giá trị hoặc để kiểm tra giá trị rỗng]
 ?>
 </body>
 </html>
