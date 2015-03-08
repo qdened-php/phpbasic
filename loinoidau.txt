@@ -12,3 +12,25 @@ LẬP TRÌNH WEB là gì?
 WEBSITE hoạt động như thế nào?
 + Đầu tiên, trình duyệt sẽ nhận các lệnh (click chuột, ấn phím...) từ phía con người, sau đó chuyển đến máy chủ (có thể qua proxy trước nếu có) rồi sau đó máy chủ xử lý và gửi trả lại các kết quả xử lý cho chúng ta. 
 + Tuy nhiên, các mã HTML, CSS không cần xử lý qua máy chủ vẫn hoạt động bình thường vì đây là các mã thiết kế (HTML & CSS KHÔNG PHẢI LÀ NGÔN NGỮ LẬP TRÌNH) chính vì thế chia ra thành 2 loại website đó là Web tĩnh (không có yêu cầu đến máy chủ) và Web động (phải có máy chủ xử lý dữ liệu)
+
+" ... uhm... vậy là chúng ta đã có kiến thức cơ bản về Lập trình web rồi, bây giờ chúng ta tiến hành chuẩn bị các công cụ để thực hiện nhé "
+
+Cái đầu tiên, chúng ta cần cài đặt môi trường làm việc cho PHP
+- Có nhiều chương trình giả lập máy chủ nhưng ở đây mình đề cập tới Wampserver & XAMPP do 2 chương trình này được dùng khá phổ biến.
++ Download Wampserver bản mới nhất: http://www.wampserver.com/en/
+ - Đối với các bạn vẫn còn dùng Window XP, các bạn down bản 2.2 tại đây: http://sourceforge.net/projects/wampserver/
++ Download XAMPP bản mới nhất: https://www.apachefriends.org/download.html
+mình khuyên dùng Wampserver cho các bạn mới bắt đầu. Các bạn down về và cài đặt, nếu ai không biết thì tra google hoặc là cứ ấn Next cũng được.
+Rồi, vậy là xong phần cài đặt môi trường làm việc, bây giờ chúng ta sẽ bàn tới Code Editor.
+Mình thường dùng Notepad++ và SublimeText để code và thấy khá tốt vì vậy mình giới thiệu luôn 2 Code Editor này.
+1. Notepad++ download bản mới nhất tại: http://notepad-plus-plus.org/download/
+hoàn toàn miễn phí
+2. SublimeText: notepad-plus-plus.org/download/
+miễn phí nhưng nếu chưa mua sẽ hay hiện vài Popup thông báo, bạn nên tìm key của nó trên google.
+
+Vậy là xong xuôi, chúng ta đã có thể bắt đầu code php được rồi, mở Wamp/Xampp và Code Editor lên để chuẩn bị code thôi nào các bạn!
+
+=== Mọi thắc mắc mọi người vui lòng comment ===
+Email: qdened@gmail.com
+
+Trân thành cảm ơn mọi người đã ủng hộ!
