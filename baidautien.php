@@ -3,7 +3,7 @@
 <meta charset="utf-8"/>
 <title>Hello world</title>
 <meta name="description" content="Tự học PHP | qDened"/>
-<meta name="author" content="https://github.com/qdened"/>
+<meta name="author" content="https://github.com/qdened-php/phpcoban"/>
 <meta name="copyright" content="Copyright (c) 2015"/>
 </head>
 <body>
