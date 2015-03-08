@@ -1,0 +1,14 @@
+# Lời nói đầu
+Chào mừng các bạn đến với qdened!
+
+Mình là một người thích chia sẻ và khám phá. Nhận thấy mọi người có xu hướng sử dụng PHP nên mình mạo muội viết một danh sách bài học PHP để cùng chia sẻ với mọi người, rất mong mọi người ủng hộ!
+
+Sau đây, chúng ta cùng bắt tay vào chuẩn bị các công cụ và kiến thức cơ bản để khám phá PHP nhé!
+
+Đầu tiên, chúng ta tìm hiểu vài điều cơ bản sau:
+LẬP TRÌNH WEB là gì?
++ Lập trình web là công việc gồm nhiều giai đoạn khác nhau và mục đích cuối cùng là cho ra 1 website đẹp, nhẹ, chuẩn.
++ Lập trình web là chúng ta (con người) nói cho máy tính (cụ thể là máy chủ) hiểu rằng chúng ta muốn nói cái gì.
+WEBSITE hoạt động như thế nào?
++ Đầu tiên, trình duyệt sẽ nhận các lệnh (click chuột, ấn phím...) từ phía con người, sau đó chuyển đến máy chủ (có thể qua proxy trước nếu có) rồi sau đó máy chủ xử lý và gửi trả lại các kết quả xử lý cho chúng ta. 
++ Tuy nhiên, các mã HTML, CSS không cần xử lý qua máy chủ vẫn hoạt động bình thường vì đây là các mã thiết kế (HTML & CSS KHÔNG PHẢI LÀ NGÔN NGỮ LẬP TRÌNH) chính vì thế chia ra thành 2 loại website đó là Web tĩnh (không có yêu cầu đến máy chủ) và Web động (phải có máy chủ xử lý dữ liệu)
